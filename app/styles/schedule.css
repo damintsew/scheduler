@@ -1,0 +1,34 @@
+
+/*Group search*/
+
+.cleanInput {
+  outline: none;
+  border: none;
+}
+
+:focus {
+  outline: none;
+}
+
+div.smallDate {
+  display: table;
+  padding: 5px;
+  width: 100%;
+  border-spacing: 10px 0;
+}
+
+div.smallDate span {
+  font-size: 12px;
+  /*margin-left: 5px;*/
+  /*margin-right: 5px;*/
+  /*align-content: center;*/
+  display: table-cell;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+ul.centeredText > li {
+  text-align: center;
+}
+
+
