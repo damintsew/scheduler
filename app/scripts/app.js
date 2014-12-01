@@ -31,6 +31,14 @@ angular
         templateUrl: 'views/groupsearch.html',
         controller: 'GroupsearchCtrl'
       })
+      .when('/group/:groupId', {
+        templateUrl: 'views/groupview.html',
+        controller: 'GroupViewCtrl'
+      })
+      .when('/groupView', {
+        templateUrl: 'views/groupview.html',
+        controller: 'GroupviewCtrl'
+      })
       .otherwise({
         redirectTo: '/groupsearch'
       });
